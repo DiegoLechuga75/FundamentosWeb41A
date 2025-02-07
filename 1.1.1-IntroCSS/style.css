@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1::first-letter{
+    color: crimson;
+    font-size: 2rem;
+}
+
+body{
+    padding: 3rem;
+}
+
+img{
+    width: 500px;
+    transition: 100ms;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+button{
+    width: 55px;
+}
+
+.primary-btn{
+    background-color: royalblue;
+    color: white;
+}
+
+.secondary-btn{
+    background-color: crimson;
+    color: white;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: royalblue;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.box:hover{
+    background-color: crimson;
+    border-radius: 100%;
+}
+
+section .card-title{
+    color: goldenrod;
+}
+
+#main-logo{
+    background-color: royalblue;
+    padding: 2rem;
+    color: white;
+}
+
+#special-title{
+    color: crimson;
+}
