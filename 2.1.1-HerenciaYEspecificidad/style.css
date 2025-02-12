@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: "PT Serif", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    color: crimson;
+}
+
+h1{
+    color: darkorange;
+}
+
+div h1{
+    color: darkred;
+}
+
+div h1{
+    color: darksalmon;
+}
+
+.title{
+    color: cornflowerblue;
+    font-weight: 100;
+}
+
+.btn-primary{
+    color: darkorchid;
+}
+
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: black;
+    width: 20rem;
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.modal h1{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.modal button{
+    color: white;
+    background-color: crimson;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 100%;
+    position: relative;
+    top: -15.5rem;
+    left: 17.5rem;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.box{
+    background-color: crimson;
+    color: white;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.box:nth-child(3){
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+}
+
+#special-title{
+    color: darkslategray;
+    font-style: italic;
+}
+
+
+
